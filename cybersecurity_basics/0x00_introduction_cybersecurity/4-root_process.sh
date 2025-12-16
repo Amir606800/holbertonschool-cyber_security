@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux -U "$1" | grep -vE ' 0 +0'
+ps aux -U root --no-headers | grep -vE ' 0 +0'
