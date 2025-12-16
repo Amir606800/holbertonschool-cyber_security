@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-uname -n
+lsb_release -si
