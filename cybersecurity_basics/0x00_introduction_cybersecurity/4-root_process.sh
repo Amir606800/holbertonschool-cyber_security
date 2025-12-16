@@ -1,2 +1,2 @@
 #!/bin/bash
-ps u -U root | grep -vE ' 0 +0'
+ps aux -U root | grep -vE ' 0 +0'
