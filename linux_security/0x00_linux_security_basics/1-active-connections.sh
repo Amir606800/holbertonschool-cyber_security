@@ -1,2 +1,2 @@
 #!/bin/bash
-ss -euapnr
+sudo ss -euapnr
