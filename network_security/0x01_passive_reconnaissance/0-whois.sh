@@ -1,2 +1,2 @@
 #!/bin/bash
-whois holbertonschool.com | awk -F":" '/Registrant|Admin|Tech/ {print $1 "," $2}' > holbertonschool.com.csv
+whois "$1" | awk -F":" '/Registrant|Admin|Tech/ {print $1 "," $2}' > "$1.csv"
