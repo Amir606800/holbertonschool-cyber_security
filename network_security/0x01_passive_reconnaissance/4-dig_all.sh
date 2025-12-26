@@ -1,2 +1,2 @@
 #!/bin/bash
-dig holbertonschool.com q-type=ANY +noall +answer
+dig $1 q-type=ANY +noall +answer
