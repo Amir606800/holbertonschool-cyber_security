@@ -1,2 +1,2 @@
 #!/bin/bash
-dig $1 q-type=ANY +noall +answer
+dig any +noall +answer $1
