@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -X POST -d $3 -H "Host: $2" $1
+sudo curl -X POST -d $3 -H "Host: $2" $1
