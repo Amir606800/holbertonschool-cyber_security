@@ -9,7 +9,7 @@ def get_request(url)
   response = Net::HTTP.get_response(uri)
 
   # Print status in required format
-  puts "Response status: #{response.code} #{response.status}"
+  puts "Response status: #{response.code} #{response.message}"
 
   # Print body in pretty JSON format
   puts "Response body:"
