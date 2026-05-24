@@ -6,13 +6,12 @@ require 'uri'
 
 def get_request(url)
   uri = URI.parse(url)
-
   response = Net::HTTP.get_response(uri)
 
-  output = {
-    status_code: response.code.to_i,
-    body: response.body
-  }
+  # Print status in required format
+  puts "Response status: #{response.code} OK"
 
-  puts JSON.pretty_generate(output)
+  # Print body in pretty JSON format
+  puts "Response body:"
+  puts JSON.pretty_generate(JSON.parse(response.body))
 end
