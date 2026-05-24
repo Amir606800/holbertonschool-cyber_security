@@ -25,5 +25,9 @@ def post_request(url, body_params)
 
   # Print response body as formatted JSON
   puts "Response body:"
-  puts JSON.parse(response.body)
+  if response.code == 404
+      puts JSON.parse(response.body)
+  else
+      puts JSON.pretty_generate(JSON.parse(response.body))
+  end
 end
