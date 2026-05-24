@@ -2,8 +2,9 @@
 
 require 'json'
 
-def count_user_ids(path)
-  data = JSON.parse(File.read(path))
+def count_user_ids(path = "file.json")
+  file = File.new(path, "r")
+  data = JSON.parse(file)
 
   count = 0
 
