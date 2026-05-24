@@ -25,11 +25,5 @@ def post_request(url, body_params)
 
   # Print response body as formatted JSON
   puts "Response body:"
-  begin
-    parsed = JSON.parse(response.body)
-    puts JSON.pretty_generate(parsed)
-  rescue
-    # if empty or invalid JSON
-    puts response.body
-  end   
+  puts response.body
 end
