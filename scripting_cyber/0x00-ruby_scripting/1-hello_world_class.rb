@@ -6,6 +6,6 @@ class HelloWorld
     end
 
     def print_hello
-        puts ""
+        puts @message
     end
 end
