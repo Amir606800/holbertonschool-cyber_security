@@ -51,6 +51,7 @@ if options[:add]
 # List tasks
 elsif options[:list]
   tasks = load_tasks
+  puts "Tasks:"
   tasks.each_with_index do |task, index|
     puts "#{index + 1}. #{task}"
   end
